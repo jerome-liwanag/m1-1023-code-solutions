@@ -1,0 +1,20 @@
+button {
+  height: 2.5rem;
+  font-size: 1.1rem;
+  background-color: white;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+thead {
+  color: white;
+  background-color: black;
+}
+
+table tbody tr:nth-child(odd) {
+  background-color: #D3D3D3;
+}
