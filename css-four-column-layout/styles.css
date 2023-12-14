@@ -1,0 +1,52 @@
+body {
+  font-family: Barlow, sans-serif;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+p {
+  font-size: 0.9rem;
+}
+
+section {
+  padding: 3rem 0 2.5rem;
+}
+
+.features-heading {
+  margin-bottom: 1rem;
+}
+
+.features-container {
+  width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.feature {
+  flex-basis: calc(100% / 4);
+}
+
+.icon {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 100%;
+}
