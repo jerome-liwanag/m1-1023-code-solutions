@@ -1,0 +1,31 @@
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 250px;
+}
+
+button {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: none;
+}
+
+.light-mode {
+  background-color: #fef9f1;
+}
+
+.circle-button.light {
+  background-color: #faea84;
+  box-shadow: 10px 2.5px 10px 10px #faea84;
+}
+
+.dark-mode {
+  background-color: #111;
+}
+
+.circle-button.dark {
+  background-color: #222324;
+  box-shadow: 10px 2.5px 10px 10px #222324;
+}
