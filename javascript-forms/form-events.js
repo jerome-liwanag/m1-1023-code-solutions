@@ -27,13 +27,3 @@ $userEmail.addEventListener('input', handleInput);
 $textarea.addEventListener('focus', handleFocus);
 $textarea.addEventListener('blur', handleBlur);
 $textarea.addEventListener('input', handleInput);
-
-const $contactForm = document.getElementById('contact-form');
-$contactForm.addEventListener('submit', function(event) {
-  event.preventDefault();
-  const formData = {
-    'name': $contactForm.elements.name.value, 'email': $contactForm.elements.email.value, 'message': $contactForm.elements.message.value
-  };
-  console.log('formData:', formData);
-  $contactForm.reset();
-});
